@@ -1,0 +1,83 @@
+//Base Stats
+resistances: .stun 60% .poison 100% .bleed 10% .disease 70% .move 10% .debuff 30% .death_blow 69% .trap 50%
+crit: .effects "on_crit_prot"
+
+//Equipments
+//[Weapon]
+weapon: .name "zerk_claws_0" .atk 0% .dmg 8 10 .crit 3% .spd 1
+weapon: .name "zerk_claws_1" .atk 0% .dmg 9 13 .crit 4% .spd 2 .upgradeRequirementCode 0
+weapon: .name "zerk_claws_2" .atk 0% .dmg 10 16 .crit 5% .spd 3 .upgradeRequirementCode 1
+weapon: .name "zerk_claws_3" .atk 0% .dmg 11 20 .crit 6% .spd 3 .upgradeRequirementCode 2
+weapon: .name "zerk_claws_4" .atk 0% .dmg 12 25 .crit 7% .spd 5 .upgradeRequirementCode 3
+
+//[Armor]
+armour: .name "zerk_armour_0" .def 5% .prot 0 .hp 33 .spd 0
+armour: .name "zerk_armour_1" .def 10% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0
+armour: .name "zerk_armour_2" .def 15% .prot 0 .hp 47 .spd 1 .upgradeRequirementCode 1
+armour: .name "zerk_armour_3" .def 20% .prot 0 .hp 54 .spd 1 .upgradeRequirementCode 2
+armour: .name "zerk_armour_4" .def 25% .prot 0 .hp 61 .spd 2 .upgradeRequirementCode 3
+
+//Skills
+//[1]
+combat_skill: .id "scratch" .level 0 .type "melee" .atk 85% .dmg 0% .crit 0% .launch 21 .target 12 .is_crit_valid True .generation_guaranteed true
+combat_skill: .id "scratch" .level 1 .type "melee" .atk 90% .dmg 0% .crit 1% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "scratch" .level 2 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "scratch" .level 3 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True
+combat_skill: .id "scratch" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True
+
+//[2]
+combat_skill: .id "dragon_breath" .level 0 .type "ranged" .atk 70% .dmg 0% .crit 2% .launch 1 .target ~123 .is_crit_valid True
+combat_skill: .id "dragon_breath" .level 1 .type "ranged" .atk 80% .dmg 0% .crit 2% .launch 1 .target ~123 .is_crit_valid True
+combat_skill: .id "dragon_breath" .level 2 .type "ranged" .atk 90% .dmg 0% .crit 3% .launch 1 .target ~123 .is_crit_valid True
+combat_skill: .id "dragon_breath" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 4% .launch 1 .target ~123 .is_crit_valid True
+combat_skill: .id "dragon_breath" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 5% .launch 1 .target ~123 .is_crit_valid True
+
+//[3]
+combat_skill: .id "paralyzing_roar" .level 0 .type "ranged" .atk 50% .dmg -90% .crit 0% .per_battle_limit 1 .launch 321 .target ~12 .is_crit_valid True  .effect "Stun 1"
+combat_skill: .id "paralyzing_roar" .level 1 .type "ranged" .atk 60% .dmg -90% .crit 1% .per_battle_limit 2 .launch 321 .target ~12 .is_crit_valid True  .effect "Stun 1"
+combat_skill: .id "paralyzing_roar" .level 2 .type "ranged" .atk 70% .dmg -90% .crit 2% .per_battle_limit 3 .launch 4321 .target ~123 .is_crit_valid True  .effect "Stun 2"
+combat_skill: .id "paralyzing_roar" .level 3 .type "ranged" .atk 80% .dmg -90% .crit 3% .per_battle_limit 4 .launch 4321 .target ~123 .is_crit_valid True  .effect "Stun 2"
+combat_skill: .id "paralyzing_roar" .level 4 .type "ranged" .atk 90% .dmg -90% .crit 4% .per_battle_limit 4 .launch 4321 .target ~1234 .is_crit_valid True  .effect "Stun 3"
+
+//[4]
+combat_skill: .id "forceful_punch" .level 0 .type "melee" .atk 90% .dmg 0% .crit 0% .move 0 2 .launch 21 .target 12 .is_crit_valid True  .effect "Push_3A"
+combat_skill: .id "forceful_punch" .level 1 .type "melee" .atk 90% .dmg 0% .crit 0% .move 0 2 .launch 21 .target 12 .is_crit_valid True  .effect "Push_3B"
+combat_skill: .id "forceful_punch" .level 2 .type "melee" .atk 95% .dmg 0% .crit 0% .move 0 2 .launch 21 .target 12 .is_crit_valid True  .effect "Push_3C"
+combat_skill: .id "forceful_punch" .level 3 .type "melee" .atk 95% .dmg 0% .crit 0% .move 0 2 .launch 21 .target 12 .is_crit_valid True  .effect "Push_3D"
+combat_skill: .id "forceful_punch" .level 4 .type "melee" .atk 100% .dmg 0% .crit 0% .move 0 2 .launch 21 .target 12 .is_crit_valid True  .effect "Push_3E"
+
+//[Move]
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+//[5]
+combat_skill: .id "dragon_tongue" .level 0 .crit 4% .heal 5 8 .per_battle_limit 2 .launch 4321 .target 4321  .is_stall_invalidating false
+combat_skill: .id "dragon_tongue" .level 1 .crit 5% .heal 6 8 .per_battle_limit 2 .launch 4321 .target 4321  .is_stall_invalidating false
+combat_skill: .id "dragon_tongue" .level 2 .crit 6% .heal 7 8 .per_battle_limit 3 .launch 4321 .target 4321  .is_stall_invalidating false
+combat_skill: .id "dragon_tongue" .level 3 .crit 7% .heal 7 10 .per_battle_limit 3 .launch 4321 .target 4321  .is_stall_invalidating false
+combat_skill: .id "dragon_tongue" .level 4 .crit 8% .heal 8 12 .per_battle_limit 4 .launch 4321 .target 4321  .is_stall_invalidating false
+
+//[6]
+combat_skill: .id "power_lounge" .level 0 .type "melee" .atk 85% .dmg 0% .crit 8% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 1 .type "melee" .atk 90% .dmg 0% .crit 8.5% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 2 .type "melee" .atk 95% .dmg 0% .crit 9% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 3 .type "melee" .atk 100% .dmg 0% .crit 9.5% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 4 .type "melee" .atk 105% .dmg 0% .crit 10% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+
+//[7]
+combat_skill: .id "going_berserk" .level 0 .heal -1 -2 .launch 1234 .target @1234  .effect "Going Berserk 1" .is_stall_invalidating false
+combat_skill: .id "going_berserk" .level 1 .heal -1 -3 .launch 1234 .target @1234  .effect "Going Berserk 2" .is_stall_invalidating false
+combat_skill: .id "going_berserk" .level 2 .heal -1 -4 .launch 1234 .target @1234  .effect "Going Berserk 3" .is_stall_invalidating false
+combat_skill: .id "going_berserk" .level 3 .heal -1 -5 .launch 1234 .target @1234  .effect "Going Berserk 4" .is_stall_invalidating false
+combat_skill: .id "going_berserk" .level 4 .heal -1 -6 .launch 1234 .target @1234  .effect "Going Berserk 5" .is_stall_invalidating false
+
+//Tags
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "outsiders_bonfire"
+
+//Aditions
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 4769666173360
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

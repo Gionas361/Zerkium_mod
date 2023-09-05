@@ -1,0 +1,6 @@
+//Going Beserk Buffs
+effect: .name "Going Berserk 1" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 2 .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "Going Berserk 2" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 3 .combat_stat_buff 1 .damage_low_multiply 21% .damage_high_multiply 21% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "Going Berserk 3" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 4 .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .speed_rating_add 4	.on_hit true .on_miss false
+effect: .name "Going Berserk 4" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 5 .combat_stat_buff 1 .damage_low_multiply 23% .damage_high_multiply 23% .speed_rating_add 4	.on_hit true .on_miss false
+effect: .name "Going Berserk 5" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 6 .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .speed_rating_add 5	.on_hit true .on_miss false

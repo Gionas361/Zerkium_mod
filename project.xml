@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>E:/SteamLibrary/steamapps/common/DarkestDungeon/mods/Zerkium Mod/</ModDataPath>
+	<Title>Zerk the demi-dragon</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>1</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>New Class</Tags>
+		<Tags>OC</Tags>
+	</Tags>
+	<ItemDescription>idk wtf i gotta write...</ItemDescription>
+	<PublishedFileId>3031026863</PublishedFileId>
+</project>
+

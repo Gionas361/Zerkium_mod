@@ -1,0 +1,20 @@
+
+zerk.sprite.camp.png
+size: 615,505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shadow
+  rotate: true
+  xy: 550, 146
+  size: 357, 63
+  orig: 700, 700
+  offset: 167, 16
+  index: -1
+Zerk
+  rotate: true
+  xy: 2, 2
+  size: 501, 546
+  orig: 700, 700
+  offset: 82, 38
+  index: -1

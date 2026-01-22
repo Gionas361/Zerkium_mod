@@ -1,0 +1,27 @@
+
+zerk.sprite.paralyzing_roar.png
+size: 1964,614
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effect
+  rotate: false
+  xy: 2, 2
+  size: 797, 610
+  orig: 1000, 650
+  offset: 111, 16
+  index: -1
+Effect2
+  rotate: true
+  xy: 1522, 39
+  size: 573, 440
+  orig: 1000, 650
+  offset: 210, 96
+  index: -1
+Zerk
+  rotate: false
+  xy: 801, 62
+  size: 719, 550
+  orig: 1000, 650
+  offset: 129, 4
+  index: -1

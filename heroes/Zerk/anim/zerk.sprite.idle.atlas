@@ -1,0 +1,272 @@
+
+zerk.sprite.idle.png
+size: 2258,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Abs
+  rotate: false
+  xy: 703, 2
+  size: 108, 71
+  orig: 650, 650
+  offset: 259, 330
+  index: -1
+Back Shoulder
+  rotate: true
+  xy: 2125, 7
+  size: 43, 75
+  orig: 650, 650
+  offset: 338, 386
+  index: -1
+Belt
+  rotate: false
+  xy: 2, 3
+  size: 154, 58
+  orig: 650, 650
+  offset: 243, 280
+  index: -1
+Chest
+  rotate: true
+  xy: 2016, 138
+  size: 144, 104
+  orig: 650, 650
+  offset: 227, 374
+  index: -1
+Front Arm
+  rotate: true
+  xy: 959, 9
+  size: 65, 115
+  orig: 650, 650
+  offset: 186, 236
+  index: -1
+Front ForeArm
+  rotate: true
+  xy: 591, 4
+  size: 66, 110
+  orig: 650, 650
+  offset: 188, 304
+  index: -1
+Front Hair
+  rotate: false
+  xy: 2205, 68
+  size: 48, 76
+  orig: 650, 650
+  offset: 335, 485
+  index: -1
+Front Hair 2
+  rotate: true
+  xy: 2125, 94
+  size: 50, 78
+  orig: 650, 650
+  offset: 285, 491
+  index: -1
+Front Hair 3
+  rotate: true
+  xy: 1453, 16
+  size: 82, 137
+  orig: 650, 650
+  offset: 234, 438
+  index: -1
+Front Hand
+  rotate: false
+  xy: 1592, 2
+  size: 82, 101
+  orig: 650, 650
+  offset: 189, 159
+  index: -1
+Front Shoulder
+  rotate: true
+  xy: 1313, 6
+  size: 89, 138
+  orig: 650, 650
+  offset: 188, 383
+  index: -1
+Hair 10
+  rotate: false
+  xy: 1267, 97
+  size: 95, 185
+  orig: 650, 650
+  offset: 168, 22
+  index: -1
+Hair 11
+  rotate: false
+  xy: 1814, 122
+  size: 77, 160
+  orig: 650, 650
+  offset: 238, 17
+  index: -1
+Hair 12
+  rotate: true
+  xy: 2122, 146
+  size: 81, 133
+  orig: 650, 650
+  offset: 282, 36
+  index: -1
+Hair 13
+  rotate: false
+  xy: 1983, 13
+  size: 140, 111
+  orig: 650, 650
+  offset: 292, 62
+  index: -1
+Hair 14
+  rotate: false
+  xy: 1187, 19
+  size: 124, 55
+  orig: 650, 650
+  offset: 309, 132
+  index: -1
+Hair 4
+  rotate: true
+  xy: 1599, 117
+  size: 165, 76
+  orig: 650, 650
+  offset: 115, 496
+  index: -1
+Hair 5
+  rotate: true
+  xy: 377, 71
+  size: 211, 125
+  orig: 650, 650
+  offset: 71, 413
+  index: -1
+Hair 6
+  rotate: false
+  xy: 1893, 126
+  size: 121, 156
+  orig: 650, 650
+  offset: 83, 306
+  index: -1
+Hair 7
+  rotate: true
+  xy: 178, 67
+  size: 215, 197
+  orig: 650, 650
+  offset: 42, 204
+  index: -1
+Hair 8
+  rotate: false
+  xy: 2, 63
+  size: 174, 219
+  orig: 650, 650
+  offset: 77, 78
+  index: -1
+Hair 9
+  rotate: false
+  xy: 629, 75
+  size: 125, 207
+  orig: 650, 650
+  offset: 110, 37
+  index: -1
+Hair Bulk
+  rotate: true
+  xy: 756, 76
+  size: 206, 509
+  orig: 650, 650
+  offset: 160, 103
+  index: -1
+Hand
+  rotate: true
+  xy: 2125, 52
+  size: 40, 78
+  orig: 650, 650
+  offset: 362, 263
+  index: -1
+Hat
+  rotate: true
+  xy: 504, 72
+  size: 210, 123
+  orig: 650, 650
+  offset: 218, 511
+  index: -1
+Head
+  rotate: true
+  xy: 1676, 2
+  size: 113, 123
+  orig: 650, 650
+  offset: 255, 470
+  index: -1
+Hip
+  rotate: true
+  xy: 1930, 10
+  size: 114, 51
+  orig: 650, 650
+  offset: 262, 297
+  index: -1
+Left Ankle
+  rotate: true
+  xy: 1134, 13
+  size: 61, 51
+  orig: 650, 650
+  offset: 335, 3
+  index: -1
+Left Feet
+  rotate: false
+  xy: 2202, 21
+  size: 54, 29
+  orig: 650, 650
+  offset: 369, 2
+  index: -1
+Left Leg
+  rotate: true
+  xy: 2125, 229
+  size: 53, 131
+  orig: 650, 650
+  offset: 325, 29
+  index: -1
+Left Tight
+  rotate: false
+  xy: 1491, 105
+  size: 106, 177
+  orig: 650, 650
+  offset: 300, 115
+  index: -1
+Neck
+  rotate: false
+  xy: 158, 4
+  size: 72, 57
+  orig: 650, 650
+  offset: 257, 455
+  index: -1
+Pants Hip
+  rotate: false
+  xy: 813, 2
+  size: 144, 72
+  orig: 650, 650
+  offset: 246, 239
+  index: -1
+Right Feet
+  rotate: true
+  xy: 1076, 10
+  size: 64, 56
+  orig: 650, 650
+  offset: 162, 2
+  index: -1
+Right Leg
+  rotate: false
+  xy: 1677, 121
+  size: 135, 161
+  orig: 650, 650
+  offset: 153, 29
+  index: -1
+Right Tight
+  rotate: false
+  xy: 1364, 100
+  size: 125, 182
+  orig: 650, 650
+  offset: 219, 130
+  index: -1
+Shadow
+  rotate: false
+  xy: 232, 2
+  size: 357, 63
+  orig: 363, 76
+  offset: 2, 2
+  index: -1
+Top 3 Hair
+  rotate: false
+  xy: 1801, 3
+  size: 127, 116
+  orig: 650, 650
+  offset: 163, 532
+  index: -1

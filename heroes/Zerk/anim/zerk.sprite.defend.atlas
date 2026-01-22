@@ -1,0 +1,27 @@
+
+zerk.sprite.defend.png
+size: 1284,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Motion Blur
+  rotate: true
+  xy: 2, 2
+  size: 532, 639
+  orig: 650, 650
+  offset: 5, 3
+  index: -1
+Shadow
+  rotate: false
+  xy: 643, 35
+  size: 357, 63
+  orig: 363, 76
+  offset: 2, 2
+  index: -1
+Zerk
+  rotate: true
+  xy: 643, 100
+  size: 434, 639
+  orig: 650, 650
+  offset: 14, 3
+  index: -1

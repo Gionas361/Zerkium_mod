@@ -1,0 +1,27 @@
+
+zerk.sprite.afflicted.png
+size: 3451,1131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Crown
+  rotate: true
+  xy: 2792, 301
+  size: 828, 657
+  orig: 1186, 2015
+  offset: 211, 1012
+  index: -1
+Flash
+  rotate: true
+  xy: 2, 2
+  size: 1127, 1341
+  orig: 1186, 2015
+  offset: 2, 672
+  index: -1
+Zerk
+  rotate: true
+  xy: 1345, 119
+  size: 1010, 1445
+  orig: 1186, 2015
+  offset: 71, 36
+  index: -1

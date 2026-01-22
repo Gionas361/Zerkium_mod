@@ -1,6 +1,14 @@
 //Going Beserk Buffs
-effect: .name "Going Berserk 1" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 2 .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 3	.on_hit true .on_miss false
-effect: .name "Going Berserk 2" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 3 .combat_stat_buff 1 .damage_low_multiply 21% .damage_high_multiply 21% .speed_rating_add 3	.on_hit true .on_miss false
-effect: .name "Going Berserk 3" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 4 .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .speed_rating_add 4	.on_hit true .on_miss false
-effect: .name "Going Berserk 4" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 5 .combat_stat_buff 1 .damage_low_multiply 23% .damage_high_multiply 23% .speed_rating_add 4	.on_hit true .on_miss false
-effect: .name "Going Berserk 5" .target "target" .curio_result_type "positive" .chance 100% .buff_duration_type combat_end .duration 6 .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .speed_rating_add 5	.on_hit true .on_miss false
+effect: .name "Going Berserk 1" .target "performer" .curio_result_type "positive" .chance 666% .buff_duration_type combat_end .duration 2 .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .max_hp_multiply -5% .speed_rating_add 1 .protection_rating_multiply -112% .tag 1 .on_hit true .on_miss false
+effect: .name "Going Berserk 2" .target "performer" .curio_result_type "positive" .chance 666% .buff_duration_type combat_end .duration 3 .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .max_hp_multiply -5% .speed_rating_add 1 .protection_rating_multiply -56%  .tag 1 .on_hit true .on_miss false
+effect: .name "Going Berserk 3" .target "performer" .curio_result_type "positive" .chance 666% .buff_duration_type combat_end .duration 4 .combat_stat_buff 1 .damage_low_multiply 19% .damage_high_multiply 19% .max_hp_multiply -5% .speed_rating_add 1 .protection_rating_multiply -28%  .tag 1 .on_hit true .on_miss false .is_continue_turn true
+effect: .name "Going Berserk 4" .target "performer" .curio_result_type "positive" .chance 666% .buff_duration_type combat_end .duration 5 .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .max_hp_multiply -5% .speed_rating_add 2 .protection_rating_multiply -14%  .tag 1 .on_hit true .on_miss false .is_continue_turn true
+effect: .name "Going Berserk 5" .target "performer" .curio_result_type "positive" .chance 666% .buff_duration_type combat_end .duration 6 .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .max_hp_multiply -4% .speed_rating_add 2 .protection_rating_multiply -7%   .tag 1 .on_hit true .on_miss false .is_continue_turn true
+
+// Dragon Claws [TRINKET]
+effect: .name "zerk_BleedSelf" .target "performer" .curio_result_type "negative" .chance 57% .dotBleed  3 .duration 1	.on_hit true .on_miss false .has_description true
+effect: .name "zerk_DoTHeal"   .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 1 .duration 2	.on_hit true .on_miss false .has_description true .source_heal_type	"dot"
+effect: .name "zerk_DoTStress" .target "performer" .curio_result_type "negative" .chance 130% .dotStress 5 .duration 2	.on_hit true .on_miss false .has_description true
+
+// Meaningful Gift [TRINKET]
+effect: .name "zerk_DoTHeal57"   .target "performer" .curio_result_type "positive" .chance 57%  .dotHpHeal 2 .duration 2	.on_hit true .on_miss false .has_description true .source_heal_type	"dot"

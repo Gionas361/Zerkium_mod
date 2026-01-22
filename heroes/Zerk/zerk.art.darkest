@@ -1,10 +1,10 @@
 commonfx: .deathfx death_medium
 
-weapon: .name "zerk_weapon_0" .icon "zerk_weapon_0.png"
-weapon: .name "zerk_weapon_1" .icon "zerk_weapon_1.png"
-weapon: .name "zerk_weapon_2" .icon "zerk_weapon_2.png"
-weapon: .name "zerk_weapon_3" .icon "zerk_weapon_3.png"
-weapon: .name "zerk_weapon_4" .icon "zerk_weapon_4.png"
+weapon: .name "zerk_claws_0" .icon "zerk_claws_0.png"
+weapon: .name "zerk_claws_1" .icon "zerk_claws_1.png"
+weapon: .name "zerk_claws_2" .icon "zerk_claws_2.png"
+weapon: .name "zerk_claws_3" .icon "zerk_claws_3.png"
+weapon: .name "zerk_claws_4" .icon "zerk_claws_4.png"
 
 armour: .name "zerk_armour_0" .icon "zerk_armour_0.png"
 armour: .name "zerk_armour_1" .icon "zerk_armour_1.png"
@@ -12,14 +12,17 @@ armour: .name "zerk_armour_2" .icon "zerk_armour_2.png"
 armour: .name "zerk_armour_3" .icon "zerk_armour_3.png"
 armour: .name "zerk_armour_4" .icon "zerk_armour_4.png"
 
-combat_skill: .id "scratch" .icon "one" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter"
-combat_skill: .id "dragon_breath" .icon "two" .anim "attack_scroll" .fx "zealous_accusation" .targchestfx "blood_splatter"
-combat_skill: .id "paralyzing_roar" .icon "three" .anim "attack_stun" .fx "stunning_blow" .targheadfx "stunning_blow_target"
-combat_skill: .id "forceful_punch" .icon "four" .anim "attack_scroll" .fx "bulwark_of_faith" .can_display_performer_selection_after_turn false
-combat_skill: .id "dragon_tongue" .icon "five" .anim "attack_heal" .fx "battle_heal" .targfx "battle_heal_target" .can_display_performer_selection_after_turn false
-combat_skill: .id "power_lounge" .icon "six" .anim "attack_charge" .fx "holy_lance" .targchestfx "blood_splatter"
-combat_skill: .id "going_berserk" .icon "seven" .anim "attack_banner" .fx "inspiring_cry" .can_display_performer_selection_after_turn false
+combat_skill: .id "scratch"         .icon "one"   .anim "scratch"         .fx "swoosh"       .targchestfx "blood_splatter"
+combat_skill: .id "dragon_breath"   .icon "two"   .anim "dragon_breath"   .fx "big_flame"    .targchestfx "blood_splatter"
+combat_skill: .id "paralyzing_roar" .icon "three" .anim "paralyzing_roar" .fx "para_roar"    .targheadfx "stunning_blow_target"
+combat_skill: .id "forceful_punch"  .icon "four"  .anim "forceful_punch"  .fx "punch_fx"     .can_display_performer_selection_after_turn false
+combat_skill: .id "dragon_tongue"   .icon "five"  .anim "dragon_tongue"   .fx "magic_words"  .targfx "battle_heal_target" .can_display_performer_selection_after_turn false
+combat_skill: .id "power_lounge"    .icon "six"   .anim "power_lounge"    .fx "grand_lounge" .targchestfx "blood_splatter"
+combat_skill: .id "going_berserk"   .icon "seven" .anim "going_berserk"   .fx "berserk_glow" .can_display_performer_selection_after_turn false
 				
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+riposte_skill: .id "riposte1" .anim "forceful_punch" .fx "punch_fx" .targchestfx "stunning_blow_target"
+
 
 act_out_display: .attack_friendly_anim "attack_sword" .attack_friendly_fx "smite" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/zerk_smite"

@@ -1,0 +1,27 @@
+
+zerk.sprite.scratch.png
+size: 2566,598
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blur
+  rotate: false
+  xy: 972, 2
+  size: 819, 594
+  orig: 1250, 650
+  offset: 116, 8
+  index: -1
+Slash
+  rotate: false
+  xy: 2, 78
+  size: 968, 518
+  orig: 1250, 650
+  offset: 276, 96
+  index: -1
+Zerk
+  rotate: false
+  xy: 1793, 2
+  size: 771, 594
+  orig: 1250, 650
+  offset: 122, 8
+  index: -1

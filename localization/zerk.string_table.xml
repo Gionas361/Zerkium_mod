@@ -7,9 +7,9 @@
 		<entry id="hero_class_name_zerk"><![CDATA[Dragon Halfling]]></entry>
 		<entry id="action_verbose_body_blacksmith_zerk"><![CDATA[It's claws too sharp to be touched, too brilliant to be considered mere weapons; a treasure.]]></entry>
 
-		<entry id="action_verbose_body_guild_zerk"><![CDATA[A former human, happy and care free. In search of proof of his past. All lost to the sands of time.]]></entry>
+		<entry id="action_verbose_body_guild_zerk"><![CDATA[A former human, conflicted about his nigh immortal body. In search of proof of his past. All lost to the sands of time.]]></entry>
 
-		<entry id="action_verbose_body_camping_trainer_zerk"><![CDATA[A miracle he learned so much, as idioticy seems to be his trait. Despite it, his tenacy allows him to be like that.]]></entry>
+		<entry id="action_verbose_body_camping_trainer_zerk"><![CDATA[A miracle he learned so much, as foolishness seems to be his trait. Despite it, his tenacy allows him to be like that.]]></entry>
 
 			<entry id="combat_skill_name_zerk_scratch"><![CDATA[Scratch]]></entry>
 			<entry id="combat_skill_name_zerk_dragon_breath"><![CDATA[Dragon Breath]]></entry>
@@ -27,11 +27,11 @@
 			<entry id="upgrade_tree_name_zerk.power_lounge"><![CDATA[Dragon Tackle]]></entry>
 			<entry id="upgrade_tree_name_zerk.going_berserk"><![CDATA[Wild Nature]]></entry>
 
-		<entry id="zerk_weapon_0"><![CDATA[Bone Claws]]></entry>
-		<entry id="zerk_weapon_1"><![CDATA[Steel Claws]]></entry>
-			<entry id="zerk_weapon_2"><![CDATA[Golden Claws]]></entry>
-			<entry id="zerk_weapon_3"><![CDATA[Diamond Claws]]></entry>
-			<entry id="zerk_weapon_4"><![CDATA[Shadow Scale Claws]]></entry>
+		<entry id="zerk_claws_0"><![CDATA[Bone Claws]]></entry>
+		<entry id="zerk_claws_1"><![CDATA[Steel Claws]]></entry>
+			<entry id="zerk_claws_2"><![CDATA[Golden Claws]]></entry>
+			<entry id="zerk_claws_3"><![CDATA[Diamond Claws]]></entry>
+			<entry id="zerk_claws_4"><![CDATA[Shadow Scale Claws]]></entry>
 			<entry id="upgrade_tree_name_zerk.weapon"><![CDATA[Dragon's Claws]]></entry>
 			<entry id="zerk_armour_0"><![CDATA[Rugged Clothes]]></entry>
 			<entry id="zerk_armour_1"><![CDATA[Fixed Clothes]]></entry>
@@ -40,10 +40,10 @@
 			<entry id="zerk_armour_4"><![CDATA["Shadow Scale Clothes"]]></entry>
 			<entry id="upgrade_tree_name_zerk.armour"><![CDATA[Evil Dragon's Clothes]]></entry>
 
-		<entry id="camping_skill_name_shed_skin"><![CDATA[SHED SCALES]]></entry>
-		<entry id="camping_skill_name_cracking_jokes"><![CDATA[CRACKING JOKES]]></entry>
-		<entry id="camping_skill_name_dragon_wisdom"><![CDATA[DRAGON'S WISDOM]]></entry>
-		<entry id="camping_skill_name_sharpen_claws"><![CDATA[SHARPEN CLAWS]]></entry>
+		<entry id="camping_skill_name_shed_skin"><![CDATA[Shed Skin]]></entry>
+		<entry id="camping_skill_name_cracking_jokes"><![CDATA[Jokester]]></entry>
+		<entry id="camping_skill_name_dragon_wisdom"><![CDATA[Dragon's Wisdom]]></entry>
+		<entry id="camping_skill_name_sharpen_claws"><![CDATA[Sharpen Claws]]></entry>
 
 		<entry id="str_bark_shed_skin"><![CDATA[Much better.]]></entry>
 		<entry id="str_bark_cracking_jokes"><![CDATA[*Insert funny joke here*]]></entry>
@@ -86,7 +86,7 @@
 	    <entry id="zerk+str_stress_heal_party_courageous"><![CDATA[No defeat will come our way.]]></entry>
 	    <entry id="zerk+str_buff_random_party_member_focused"><![CDATA[Non shall die under my watch.]]></entry>
 	    <entry id="zerk+str_buff_party_powerful"><![CDATA[We are strong.]]></entry>
-	    <entry id="zerk+str_buff_party_powerful"><![CDATA[Unstopable... thats us...]]>]]></entry>
+	    <entry id="zerk+str_buff_party_powerful"><![CDATA[Unstopable... thats us...]]></entry>
 	    <entry id="zerk+str_heal_self_vigorous"><![CDATA[*Grins*]]></entry>
 	    <entry id="zerk+str_bark_stress_fearful"><![CDATA[No... no... no...]]></entry>
 	    <entry id="zerk+str_bark_stress_fearful"><![CDATA[I... let's turn back... p-plea...]]></entry>
@@ -171,7 +171,6 @@
 	    <entry id="zerk+str_attack_friendly_irrational"><![CDATA[You...]]></entry>
 	    <entry id="zerk+str_attack_friendly_irrational"><![CDATA[Hunt...]]></entry>
 	    <entry id="zerk+str_attack_self_masochistic"><![CDATA[PAIN!!!]]></entry>
-	    <entry id="zerk+str_attack_self_masochistic"><![CDATA[$!#$*&%*!$&#%*!%]]></entry>
 	    <entry id="zerk+str_attack_self_depressed"><![CDATA[I... useless.]]></entry>
 	    <entry id="zerk+str_attack_self_depressed"><![CDATA[JUST DIE ALREADY!!!]]></entry>
 	    <entry id="zerk+str_attack_self_irrational"><![CDATA[AHAHAHHAHAHAHAHAAHA]]></entry>
@@ -303,5 +302,28 @@
 	    <entry id="zerk+str_campingMealBalk_depressed"><![CDATA[This tastes so bad.]]></entry>
 	    <entry id="zerk+str_campingMealBalk_abusive"><![CDATA[Trash of the lowest degree.]]></entry>
 	    <entry id="zerk+str_campingMealBalk_irrational"><![CDATA[Pizza?]]></entry>
+
+		<!-- Trinket Names -->
+		<entry id="str_inventory_title_trinketzerk_DragonEye"><![CDATA[Dragon Eye]]></entry>
+		<entry id="str_inventory_title_trinketzerk_DragonClaws"><![CDATA[Dragon Claw]]></entry>
+		<entry id="str_inventory_title_trinketzerk_DragonHeart"><![CDATA[Dragon Heart]]></entry>
+		<entry id="str_inventory_title_trinketzerk_DragonScale"><![CDATA[Dragon Scale]]></entry>
+		<entry id="str_inventory_title_trinketzerk_BlackDragonFang"><![CDATA[Black Dragon Fang]]></entry>
+		<entry id="str_inventory_title_trinketzerk_MeaningfulGift"><![CDATA[Meaningful Gift]]></entry>
+		<entry id="str_inventory_title_trinketzerk_gifted_charm"><![CDATA[Gigant's Charm]]></entry>
+
+		<!-- Sets -->
+		<entry id="str_inventory_set_title_zerk_Essentials"><![CDATA["Will I ever trully become human with this body..."]]></entry>
+		<entry id="str_inventory_set_title_zerk_PivotalMoments"><![CDATA["These pivotal moments, make me who I am."]]></entry>
+
+		<!-- Tooltips -->
+		<entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[If doesn't have: %s; Then: ]]></entry>
+		<entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit: ]]></entry>
+		<entry id="trinket_kill_performer_additional_effects"><![CDATA[On Monster Kill: ]]></entry>
+		<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit: ]]></entry>
+
+		<!-- Town Events -->
+		<entry id="town_event_title_first_zerk"><![CDATA[Second Breath]]></entry>
+		<entry id="town_event_description_first_zerk"><![CDATA[A shirtless man with an arm of unholy source, appears before you and asks for a place to stay in exchange for his strength.]]></entry>
 	</language>
 </root>

@@ -1,0 +1,20 @@
+
+zerk.sprite.investigate.png
+size: 715,450
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shadow
+  rotate: true
+  xy: 650, 91
+  size: 357, 63
+  orig: 363, 76
+  offset: 2, 2
+  index: -1
+Zerk
+  rotate: true
+  xy: 2, 2
+  size: 446, 646
+  orig: 650, 650
+  offset: 71, 2
+  index: -1

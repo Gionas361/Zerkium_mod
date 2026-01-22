@@ -9,7 +9,7 @@
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>3</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
 		<Tags>New Class</Tags>
@@ -18,4 +18,3 @@
 	<ItemDescription>idk wtf i gotta write...</ItemDescription>
 	<PublishedFileId>3031026863</PublishedFileId>
 </project>
-

@@ -1,0 +1,27 @@
+
+zerk.sprite.heroic.png
+size: 3539,1129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Crown
+  rotate: true
+  xy: 2923, 491
+  size: 636, 614
+  orig: 1131, 2310
+  offset: 153, 968
+  index: -1
+Flash
+  rotate: true
+  xy: 1580, 2
+  size: 1125, 1341
+  orig: 1131, 2310
+  offset: 0, 606
+  index: -1
+Zerk
+  rotate: true
+  xy: 2, 64
+  size: 1063, 1576
+  orig: 1131, 2310
+  offset: 34, 37
+  index: -1

@@ -1,0 +1,372 @@
+{
+    "buffs":
+    [
+        {
+            "id" : "zerk_MAXHP25",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "max_hp",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_CRIT2",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.02,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_CRIT8",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.08,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_SPD9",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 9,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGL35BELOW80",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.35,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.8,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGH35BELOW80",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.35,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.8,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DODGE6",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "defense_rating",
+            "amount" : 0.06,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DODGE15",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "defense_rating",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_IGNOREPROT25BELOW",
+            "stat_type" : "ignore_protection",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.25,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_TAKE85MOREDMG",
+            "stat_type" : "damage_received_percent",
+            "amount" : 0.85,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.1,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_VIRTUE35UP",
+            "stat_type" : "resolve_check_percent",
+            "amount" : 0.35,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.4,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGL25ABOVE99",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.99,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGH25ABOVE99",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.99,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_VIRTUE17UP",
+            "stat_type" : "resolve_check_percent",
+            "amount" : 0.17,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0.80,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_MAXHP35POS1",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "max_hp",
+            "amount" : 0.35,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_rank",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGl18POS1",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.18,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_rank",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DMGh18POS1",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.18,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_rank",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_DODGE10POS1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "defense_rating",
+            "amount" : 0.10,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_rank",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+        {
+            "id" : "zerk_PROTMINUS50POS1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "protection_rating",
+            "amount" : -0.5,
+            "remove_if_not_active" : false,
+            "rule_type" : "in_rank",
+            "is_false_rule" : false,
+            "rule_data" : {
+                "float" : 0,
+                "string" : ""
+            }
+        },
+
+
+
+        
+        {
+			"id":"RESILIENCE_CHARM_BLIGHT_RESIST",
+			"stat_type":"resistance",
+			"stat_sub_type":"poison",
+			"amount":0.35,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":""
+			},
+			"has_description":false
+		},
+		{
+			"id":"RESILIENCE_CHARM_DISEASE_RESIST",
+			"stat_type":"resistance",
+			"stat_sub_type":"disease",
+			"amount":0.45,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":""
+			}
+		},
+		{
+			"id":"RESILIENCE_CHARM_DEBUFF_RESIST",
+			"stat_type":"resistance",
+			"stat_sub_type":"debuff",
+			"amount":0.35,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":""
+			},
+			"has_description":false
+		},
+		{
+			"id":"RESILIENCE_CHARM_BLEED_RESIST",
+			"stat_type":"resistance",
+			"stat_sub_type":"bleed",
+			"amount":0.35,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":""
+			},
+			"has_description":false
+		},
+		{
+			"id":"RESILIENCE_CHARM_TT",
+			"stat_type":"upgrade_discount",
+			"stat_sub_type":"RESILIENCE_CHARM_TT",
+			"amount":1,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":""
+			}
+		},
+		{
+			"id":"RESILIENCE_CHARM_NEG_BLEED_RESIST_BANDAGE_INVENTORY",
+			"stat_type":"resistance",
+			"stat_sub_type":"bleed",
+			"amount":-0.25,
+			"remove_if_not_active":false,
+			"rule_type":"has_item_id",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"bandage"
+			}
+		},
+		{
+			"id":"RESILIENCE_CHARM_NEG_BLIGHT_RESIST_ANTIVENOM_INVENTORY",
+			"stat_type":"resistance",
+			"stat_sub_type":"poison",
+			"amount":-0.25,
+			"remove_if_not_active":false,
+			"rule_type":"has_item_id",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"antivenom"
+			}
+		},
+		{
+			"id":"RESILIENCE_CHARM_NEG_DEBUFF_RESIST_SALTS_INVENTORY",
+			"stat_type":"resistance",
+			"stat_sub_type":"debuff",
+			"amount":-0.25,
+			"remove_if_not_active":false,
+			"rule_type":"has_item_id",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"medicinal_herbs"
+			}
+		},
+		{
+			"id":"RESILIENCE_CHARM_NEG_DISEASE_RESIST_KITS_INVENTORY",
+			"stat_type":"resistance",
+			"stat_sub_type":"disease",
+			"amount":-0.3,
+			"remove_if_not_active":false,
+			"rule_type":"has_item_id",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"disease_kit"
+			}
+		}
+    ]
+}

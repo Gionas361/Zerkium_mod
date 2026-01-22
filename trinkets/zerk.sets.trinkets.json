@@ -1,0 +1,26 @@
+{
+    "sets":
+    [
+        {
+            "id" : "zerk_Essentials",
+            "buffs":
+            [
+                "zerk_CRIT8",
+                "ACC10",
+                "zerk_SPD9",
+                "zerk_VIRTUE35UP"
+            ]
+        },
+        {
+            "id" : "zerk_PivotalMoments",
+            "buffs":
+            [
+                "zerk_MAXHP35POS1",
+                "zerk_DMGl18POS1",
+                "zerk_DMGh18POS1",
+                "zerk_DODGE10POS1",
+                "zerk_PROTMINUS50POS1"
+            ]
+        }
+    ]
+}

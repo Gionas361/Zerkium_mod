@@ -1,0 +1,27 @@
+
+zerk.sprite.forceful_punch.png
+size: 1208,1236
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Clow
+  rotate: false
+  xy: 334, 110
+  size: 752, 564
+  orig: 1250, 650
+  offset: 340, 0
+  index: -1
+Effect
+  rotate: true
+  xy: 2, 2
+  size: 1232, 330
+  orig: 1250, 650
+  offset: 18, 203
+  index: -1
+Zerk
+  rotate: false
+  xy: 334, 676
+  size: 872, 558
+  orig: 1250, 650
+  offset: 235, 4
+  index: -1

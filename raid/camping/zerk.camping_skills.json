@@ -19,9 +19,9 @@
 					"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-                    "type": "health_damage_max_health_percent",
+                    "type": "health_heal_max_health_percent",
                     "sub_type" : "",
-					"amount" :  0.2
+					"amount" :  0.1
 				},
 				{ 
 					"selection" : "individual",

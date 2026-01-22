@@ -1,0 +1,76 @@
+
+zerk.sprite.dragon_breath.png
+size: 2544,1186
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fire 1
+  rotate: false
+  xy: 2, 2
+  size: 332, 301
+  orig: 1650, 900
+  offset: 384, 477
+  index: -1
+Fire 2
+  rotate: false
+  xy: 878, 27
+  size: 383, 426
+  orig: 1650, 900
+  offset: 533, 288
+  index: -1
+Fire 3
+  rotate: false
+  xy: 739, 455
+  size: 600, 729
+  orig: 1650, 900
+  offset: 652, 56
+  index: -1
+Fire 4
+  rotate: false
+  xy: 2, 305
+  size: 735, 879
+  orig: 1650, 900
+  offset: 844, 18
+  index: -1
+Glow
+  rotate: true
+  xy: 1341, 19
+  size: 525, 638
+  orig: 1650, 900
+  offset: 230, 218
+  index: -1
+Yell 1
+  rotate: true
+  xy: 656, 52
+  size: 251, 220
+  orig: 1650, 900
+  offset: 443, 520
+  index: -1
+Yell 2
+  rotate: false
+  xy: 336, 33
+  size: 318, 270
+  orig: 1650, 900
+  offset: 625, 337
+  index: -1
+Yell 3
+  rotate: true
+  xy: 1981, 68
+  size: 516, 540
+  orig: 1650, 900
+  offset: 693, 151
+  index: -1
+Yell 4
+  rotate: true
+  xy: 1968, 586
+  size: 598, 574
+  orig: 1650, 900
+  offset: 897, 167
+  index: -1
+Zerk
+  rotate: false
+  xy: 1341, 546
+  size: 625, 638
+  orig: 1650, 900
+  offset: 131, 217
+  index: -1

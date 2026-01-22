@@ -1,0 +1,133 @@
+{
+    "entries":
+    [
+        {
+            "id" : "zerk_DragonEye",
+            "buffs" : [
+                "ACC10",
+                "zerk_CRIT2"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "set_id" : "zerk_Essentials",
+            "rarity" : "uncommon",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id" : "zerk_DragonHeart",
+            "buffs" : [
+                "zerk_MAXHP25"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "set_id" : "zerk_PivotalMoments",
+            "rarity" : "rare",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id" : "zerk_DragonClaws",
+            "buffs" : [
+                "zerk_DMGL35BELOW80",
+                "zerk_DMGH35BELOW80",
+                "zerk_IGNOREPROT25BELOW",
+                "zerk_TAKE85MOREDMG",
+                "zerk_DODGE6"
+            ],
+            "attack_skill_additional_effects": [
+                "zerk_BleedSelf"
+            ],
+            "kill_performer_additional_effects": [
+                "zerk_DoTHeal"
+            ],
+            "was_hit_additional_effects": [
+                "zerk_DoTStress"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "set_id" : "zerk_Essentials",
+            "rarity" : "very_rare",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id" : "zerk_DragonScale",
+            "buffs" : [
+                "PROT15",
+                "zerk_DODGE15"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "set_id" : "zerk_Essentials",
+            "rarity" : "very_rare",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id" : "zerk_BlackDragonFang",
+            "buffs" : [
+                "TRINKET_at_deaths_door_DMGL_B2",
+                "TRINKET_at_deaths_door_DMGH_B2",
+                "TRINKET_at_deaths_door_CRIT_B3",
+                "TRINKET_DEATHBLOWRESIST_B3",
+                "TRINKET_MAXHP_B2"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "set_id" : "zerk_Essentials",
+            "rarity" : "very_rare",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id" : "zerk_MeaningfulGift",
+            "buffs" : [
+                "zerk_DMGL25ABOVE99",
+                "zerk_DMGH25ABOVE99",
+                "zerk_VIRTUE17UP"
+            ],
+            "hero_class_requirements": [
+                "zerk"
+            ],
+            "attack_skill_additional_effects": [
+                "zerk_DoTHeal57"
+            ],
+            "set_id" : "zerk_PivotalMoments",
+            "rarity" : "rare",
+            "price" : 7500,
+            "limit" : 1,
+            "origin_dungeon" : ""
+        },
+        {
+            "id": "zerk_gifted_charm",
+            "buffs": [
+                "RESILIENCE_CHARM_DEBUFF_RESIST",
+                "RESILIENCE_CHARM_TT",
+                "RESILIENCE_CHARM_BLIGHT_RESIST",
+                "RESILIENCE_CHARM_BLEED_RESIST",
+                "RESILIENCE_CHARM_DISEASE_RESIST",
+                "RESILIENCE_CHARM_NEG_BLEED_RESIST_BANDAGE_INVENTORY",
+                "RESILIENCE_CHARM_NEG_BLIGHT_RESIST_ANTIVENOM_INVENTORY",
+                "RESILIENCE_CHARM_NEG_DEBUFF_RESIST_SALTS_INVENTORY",
+                "RESILIENCE_CHARM_NEG_DISEASE_RESIST_KITS_INVENTORY"
+            ],
+            "hero_class_requirements": [],
+            "set_id" : "zerk_PivotalMoments",
+            "rarity": "very_rare",
+            "price": 25000,
+            "limit": 4,
+            "origin_dungeon": ""
+        }
+    ]
+}

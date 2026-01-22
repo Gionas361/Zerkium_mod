@@ -57,11 +57,19 @@ combat_skill: .id "dragon_tongue" .level 3 .crit 7% .heal 8 25  .per_battle_limi
 combat_skill: .id "dragon_tongue" .level 4 .crit 8% .heal 9 30  .per_battle_limit 4 .launch 1234 .target @~1234  .is_stall_invalidating false
 
 //[6]
+<<<<<<< HEAD
 combat_skill: .id "power_lounge" .level 0 .type "melee" .atk 85% .dmg 10% .crit 8% .move 0 3 .launch 432 .target 12 .is_crit_valid True  .effect "Bleed 1"
 combat_skill: .id "power_lounge" .level 1 .type "melee" .atk 90% .dmg 20% .crit 8.5% .move 0 3 .launch 432 .target 12 .is_crit_valid True .effect "Bleed 1"
 combat_skill: .id "power_lounge" .level 2 .type "melee" .atk 95% .dmg 30% .crit 9% .move 0 3 .launch 432 .target 123 .is_crit_valid True .effect "Bleed 1"
 combat_skill: .id "power_lounge" .level 3 .type "melee" .atk 100% .dmg 40% .crit 9.5% .move 0 3 .launch 432 .target 123 .is_crit_valid True .effect "Bleed 1"
 combat_skill: .id "power_lounge" .level 4 .type "melee" .atk 105% .dmg 50% .crit 10% .move 0 3 .launch 432 .target 1234 .is_crit_valid True .effect "Bleed 1"
+=======
+combat_skill: .id "power_lounge" .level 0 .type "melee" .atk 85% .dmg 10% .crit 8% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 1 .type "melee" .atk 90% .dmg 20% .crit 8.5% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 2 .type "melee" .atk 95% .dmg 30% .crit 9% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 3 .type "melee" .atk 100% .dmg 40% .crit 9.5% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+combat_skill: .id "power_lounge" .level 4 .type "melee" .atk 105% .dmg 50% .crit 10% .move 0 3 .launch 432 .target 12 .is_crit_valid True
+>>>>>>> 02a6944336e758fc9045c7bb456cfbd47d1f12ba
 
 //[7]
 combat_skill: .id "going_berserk" .level 0 .heal -1 -2 .launch 1234 .per_battle_limit 1 .target @1234  .effect "Going Berserk 1" .is_stall_invalidating false

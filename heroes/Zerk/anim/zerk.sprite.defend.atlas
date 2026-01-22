@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 zerk.sprite.defend.png
 size: 1284,536
 format: RGBA8888
@@ -24,4 +25,24 @@ Zerk
   size: 434, 639
   orig: 650, 650
   offset: 14, 3
+=======
+crusader.sprite.defend.png
+size: 721,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend
+  rotate: true
+  xy: 2, 22
+  size: 337, 652
+  orig: 337, 652
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 656, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+>>>>>>> 02a6944336e758fc9045c7bb456cfbd47d1f12ba
   index: -1
